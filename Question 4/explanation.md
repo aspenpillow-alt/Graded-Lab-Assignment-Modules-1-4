@@ -16,4 +16,5 @@
 
 9. I redirected the output of the `uname -a` command into a file named `system_report.txt` instead of printing it to the screen.
 
-10. I used the `ncdu` tool to get an interactive view of disk usage and see which files and folders are consuming the most disk space.
+10. I tried to use the `ncdu` tool to visualize disk usage, but since it was not installed on the system, I used the `du -h --max-depth=1` command as an alternative to view disk usage by directory.
+
