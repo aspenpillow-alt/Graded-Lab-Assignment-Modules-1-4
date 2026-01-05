@@ -1,21 +1,21 @@
-1. The `whoami` command displays the currently logged-in username, and `groups` shows all groups associated with my user account.
+1. I used the `whoami` and `groups` commands to verify my user identity and the group memberships associated with my account on the system.
 
-2. The `pwd` command shows the current working directory, while `ls -l` lists files and directories with detailed information such as permissions and ownership.
+2. I used the `pwd` command to determine my current working directory and `ls -l` to view all files and directories in long-listing format.
 
-3. This command creates a file named `user_info.txt` containing a confirmation message.
+3. I created the file `user_info.txt` using the `echo` command to confirm that my Linux user environment was set up correctly.
 
-4. The `wc -c` command counts the number of characters present in the file.
+4. I used the `wc -c` command to count the number of characters in the file and ensure that the content was saved successfully.
 
-5. The `man mkdir` command opens the manual page for mkdir. The `-p` option allows creation of parent directories if they do not exist.
+5. I accessed the manual page for the `mkdir` command and identified the `-p` option, which allows parent directories to be created if they do not already exist.
 
-6. This command lists the contents of the home directory in alphabetical order.
+6. I listed the contents of my home directory and used the `sort` command to arrange the output in alphabetical order.
 
-7. The `grep` command searches for the word "admin" inside the log.txt file and displays matching lines.
+7. I used the `grep` command to search the `log.txt` file and display only the lines containing the word “admin”.
 
-8. The `uname -r` command displays the currently running Linux kernel version.
+8. I used the `uname -r` command to display the specific version of the Linux kernel currently running on the system.
 
-9. The `ping` command checks network connectivity by sending ICMP packets to google.com.
+9. I sent four ICMP packets to Google using the `ping` command to verify network connectivity.
 
-10. The `uptime` command shows system running time, logged-in users, and load average.
+10. I used the `uptime` command to check how long the system has been running, the number of logged-in users, and the current system load.
 
 
