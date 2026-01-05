@@ -16,4 +16,5 @@ rm sample_soft.txt
 
 cat sample_data.txt
 
+du -sh ~
 df -h
