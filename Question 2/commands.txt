@@ -1,1 +1,22 @@
+mkdir ~/documents
+
+cd ~/documents
+touch plan.txt
+
+echo "Note: Complete the IxD Systems environment audit by Friday." > plan.txt
+
+ls -l plan.txt
+
+cp plan.txt plan_copy.txt
+
+cd ~
+mv documents project_documents
+
+mkdir project_documents/archive
+
+mv project_documents/plan_copy.txt project_documents/archive/
+
+ls -R project_documents
+
+readlink -f project_documents/archive/plan_copy.txt
 
